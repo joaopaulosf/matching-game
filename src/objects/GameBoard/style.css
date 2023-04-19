@@ -1,8 +1,7 @@
 .board-game {
-    border: 1px solid var(--color-borders);
     display: flex;
     flex-wrap: wrap;
     gap: 15px;
-    justify-content: center;
+    justify-content: space-evenly;
     padding: 15px 0;
 }
