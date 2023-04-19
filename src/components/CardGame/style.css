@@ -6,6 +6,8 @@
     height: 160px;
     border: 1px solid var(--color-borders);
     border-radius: 3px;
-    background-color: var(--color-primary);
     cursor: pointer;
+    background: url("/src/images/vscode.png") var(--color-primary) no-repeat center;
+
+    transition: 0.4s;
 }

@@ -3,7 +3,7 @@ import "./style.css";
 const CardGame = () => {
     return `
         <article class="card-game">
-            <img src="./src/images/vscode.png">
+            <img>
         </article>
     `;
 };
