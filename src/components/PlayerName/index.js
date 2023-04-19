@@ -1,10 +1,9 @@
 import "./style.css"
 
-const PlayerName = (playerOne, playerTwo) => {
+const PlayerName = (player) => {
     return`
         <section class="player-name">
-            <p class="name">${playerOne}</p>
-            <p class="name">${playerTwo}</p>
+            <p class="name">${player}</p>
         </section>
     `;
 };

@@ -1,10 +1,4 @@
 .player-name {
-    display: flex;
-    justify-content: space-between;
-    padding: 10px;
-}
-
-.player-name .name {
     color: var(--color-text);
     font-size: 1.8rem;
 }
