@@ -1,10 +1,10 @@
 import CardGame from "../CardGame";
 
-const CardFrontBack = () => {
+const CardFrontBack = () => { 
     return `
         <article class="card-front-back">
             ${CardGame()}
-            ${CardGame()}
+            ${CardGame("vue-js", "vue-icon")}
         </article>
     `
 };

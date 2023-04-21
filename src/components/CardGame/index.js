@@ -1,9 +1,9 @@
 import "./style.css";
 
-const CardGame = () => {
+const CardGame = (icon="vscode", alt="vscode-icon") => {
     return `
         <article class="card-game">
-            <img>
+            <img src= "./src/images/${icon}.png" alt="${alt}">
         </article>
     `;
 };
