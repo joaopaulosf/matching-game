@@ -2,8 +2,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 130px;
-    height: 160px;
+    width: var(--width);
+    height: var(--height);
     border: 1px solid var(--color-borders);
     border-radius: 3px;
     cursor: pointer; 
