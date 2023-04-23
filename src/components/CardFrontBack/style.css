@@ -1,6 +1,7 @@
 .card-front-back {
     --width: 130px;
     --height: 160px;
+    cursor: pointer; 
     width: var(--width);
     height: var(--height);
     position: relative;

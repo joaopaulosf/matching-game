@@ -10,6 +10,6 @@ $root.insertAdjacentHTML(
     "beforeend",
     `   
         ${ScoreBoard()}
-        ${GameBoard(2)}
+        ${GameBoard(6)}
     `
 );

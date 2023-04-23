@@ -6,7 +6,6 @@
     height: var(--height);
     border: 1px solid var(--color-borders);
     border-radius: 3px;
-    cursor: pointer; 
     background-color: var(--color-secondary);
     transition: 0.4s;
 }
