@@ -1,7 +1,7 @@
 import CardGame from "../CardGame";
 import "./style.css";
 
-const CardFrontBack = () => {
+const CardFrontBack = (icon, altIcon) => {
     window.cardFrontBack = {};
     window.cardFrontBack.handleClick = (event) => {
         const $origin = event.target;
@@ -15,7 +15,7 @@ const CardFrontBack = () => {
                 ${CardGame()}
             </div>
             <div class="card -back">
-                ${CardGame("vue-js", "vue-icon")}
+                ${CardGame(icon, altIcon)}
             </div>
         </article>
     `
