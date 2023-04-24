@@ -4,3 +4,10 @@
     align-items: center;
     padding: 1rem 0;
 }
+
+.score-board > .player-one, .player-two {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    width: 72px;
+}

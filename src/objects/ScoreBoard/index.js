@@ -6,11 +6,15 @@ import PlayerScore from "../../components/PlayerScore"
 const ScoreBoard = () => {
     return `
         <header class="score-board">
-            ${PlayerName("Player 1")}
-            ${PlayerScore(2)}
+            <section class="player-one">
+                ${PlayerName("Player 1")}
+                ${PlayerScore(2)}
+            </section>
             ${PlayerVersus()}
-            ${PlayerScore(1)}
-            ${PlayerName("Player 2")}
+            <section class="player-two">
+                ${PlayerName("Player 2")}
+                ${PlayerScore(1)}
+            </section>
         </header>
     `
 }
