@@ -1,6 +1,8 @@
-const ArrowDown = () => {
+import "./style.css"
+
+const ArrowDown = (currentPlayer = 1) => {
     return `
-        <img src="./src/images/arrow-down.svg" alt="arrow-down">
+        <img class="arrow-down" data-currentPlayer="${currentPlayer}" src="./src/images/arrow-down.svg" alt="arrow-down">
     `
 };
 
